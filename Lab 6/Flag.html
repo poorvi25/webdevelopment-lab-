@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#pul{
+position:absolute;
+right:135px;
+height:210px;
+width:270px;
+background:yellow;
+animation: mymove 8s infinite;
+animation-timing-function: linear; 
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100%;}
+}
+.text{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+
+<body>
+
+<div style="background:orange; width:100%; height:210px"></div>
+<div style="background:white; width:100%; height:210px"><center><img src=".\martyrsday.jpg" style="height:210px;border-color: red;" border="3">
+<div class="text">You don't forget, we will not forgive!</div></center></div>
+<div style="background:green; width:100%; height:210px">
+<div id = "pul">PULVAMA ATTACK</div>
+</div>
+</body>
+
+</html>

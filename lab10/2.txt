@@ -1,0 +1,24 @@
+const http=require('http');
+const server=http.createServer((req,res)=>{
+const url=req.url;
+if(url==='/'){
+
+console.log("Inside /");
+res.write("Inside /");
+res.end();
+return;
+}
+
+
+if(url==='/juet')
+{
+console.log("inside juet");
+res.writeHead(302, {
+  'Location': 'https://www.juet.ac.in/'
+ 
+});
+res.end();
+return;
+}
+console.log("otherwise");
+}).listen(5000);

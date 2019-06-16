@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h1> Form !</h1>
+    <div class="middle">
+  	<div class="above">
+  	 <img src="food1.jpg" alt="food">	
+  	</div>
+  	<div class="bottom">
+  		<div class="content">
+  		<h2 class="heading">Book Your Table Here</h2>
+  		<h4 class="sub-heading">--Lets book your table online</h4>
+  		<hr>
+ <form name="frm1" action="#">
+  	<h4>Select Date</h4>
+  	<input type="date" name="date1">
+    <h4>No of Guest</h4>
+   <ul>
+   <li class="hover"><input type="radio" name="num" value="2" checked> 2</li>
+   <li class="hover"><input type="radio" name="num" value="2-4"> 2-4</li>
+   <li class="hover"><input type="radio" name="num" value="5"> 5</li>
+   <li class="hover"><input type="radio" name="num" value="5-10"> 5-10</li>
+   <li class="hover"><input type="radio" name="num" value="10+"> 10+</li>
+   </ul>
+   <h4>Purpose</h4>
+   <select class="dropdown">
+		<option disabled value>Select Your View</option>
+		<option value="General">General</option>
+		<option value="Celebration">Celebration</option>
+		<option value="Official">Official</option>
+		<option value="Other">Other</option>
+    </select>
+	<h4>Table Type</h4>
+	<ul>
+      <li class="hover"><input type="radio" name="type" value="Personal Cabin" checked>Personal Cabin</li>
+      <li class="hover"><input type="radio" name="type" value="Open Garden">Open Garden</li>
+      <li class="hover"><input type="radio" name="type" value="General">General</li>
+    </ul>
+    <textarea name="message" placeholder="Any Extra Facilities"></textarea>
+    <h4>Personal Info</h4>
+      <h5 class="sub-heading">We require your contact details for confirmation and feedbacks</h5>
+       <input type="text" placeholder="Enter Your Name" name="name" required>
+       <input type="tel" placeholder="Contact Number" name="contact" pattern="[0-9]">
+       <input type="text" placeholder="Enter Email" name="email">
+       <textarea name="textbox" placeholder="Any Message Query"></textarea> 
+     <button type="submit" class="btn"><b>BOOK YOUR TABLE</b></button>
+      
+  		</form>
+  		</div>
+  	</div>
+  </div>
+ 
+ 
+</body>
+</html>

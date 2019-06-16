@@ -1,0 +1,95 @@
+ body{
+ 	background-color:#a3a3c2;
+ }
+
+ .middle{
+ 	background-color:#ffffff;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: auto;
+    max-width:550px;
+     text-align:center;
+    font-family: 'Signika', sans-serif;
+    /*padding: 10px;
+    padding-top: 20px;*/
+ }
+ .middle img{
+ 	max-width:550px;
+ 	max-height:400px;
+ 	margin:0;
+ }
+.heading{
+  font-size: 30px;
+  margin-bottom: 0px;
+
+}
+.sub-heading{
+ font-size:15px;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom:20px;
+  text-transform: none;
+  font-family: 'Open Sans', sans-serif;	
+}
+
+hr{
+	max-width:400px;
+    margin-bottom:20px;
+}
+form{
+	padding-left:10px;
+	padding-right:10px;
+	padding:10px;
+}
+form input[type=date],
+form input[type=text],
+form input[type=tel],
+form button[type=submit],
+textarea,
+.dropdown
+{
+  width:450px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+}
+
+form h4{
+	margin-bottom:5px;
+	text-align:left;
+	padding-left:15px;
+}
+li{
+  text-decoration:none;
+  cursor:pointer;
+  width:450px;
+  padding:10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+  text-align:left;
+}
+form .btn{
+  background-color:#C0C0C0;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+form .btn:hover{
+  opacity: 1;
+}
+form input[type=text]:focus,form input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+ .hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.hover:hover {opacity: 1}
